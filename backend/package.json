@@ -1,0 +1,12 @@
+{
+  "name": "spicebridge-backend",
+  "version": "1.0.0",
+  "description": "Backend for SpiceBridge export catalog",
+  "main": "server.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

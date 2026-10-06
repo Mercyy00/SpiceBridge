@@ -1,0 +1,63 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #ffffff;
+    color: #1b1f1c;
+}
+
+
+/* Hero */
+
+.hero-section {
+    background:
+        radial-gradient(
+            circle at 85% 20%,
+            rgba(25, 135, 84, 0.15),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #f1faf4,
+            #ffffff
+        );
+}
+
+
+/* Product Images */
+
+.product-image {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+
+/* Navbar */
+
+.navbar .nav-link {
+    color: #333;
+    transition: 0.2s;
+}
+
+.navbar .nav-link:hover {
+    color: #198754;
+}
+
+
+/* Cards */
+
+.card {
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+
+/* Footer */
+
+footer a:hover {
+    color: white !important;
+}
